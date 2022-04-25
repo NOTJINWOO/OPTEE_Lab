@@ -39,7 +39,8 @@
 /* The function IDs implemented in this TA */
 #define TA_TEEencrypt_CMD_ENC_VALUE		0
 #define TA_TEEencrypt_CMD_DEC_VALUE		1
-#define TA_TEEencrypt_CMD_RANDOMKEY_GET		2
-#define TA_TEEencrypt_CMD_RANDOMKEY_ENC		3
+#define TA_TEEencrypt_CMD_RSA_GENKEYS	2
+#define TA_TEEencrypt_CMD_RSA_ENCRYPT	3
+#define TA_TEEencrypt_CMD_RSA_DECRYPT	4
 
 #endif /*TA_HELLO_WORLD_H*/
